@@ -1,13 +1,11 @@
 
-
-'''
 s = input('enter value: ')
 
 try:
     s = int(s)
 except:
     print('Error')
-'''
+
 print()
 print('Task 2')
 
