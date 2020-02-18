@@ -1,12 +1,11 @@
 s = input('Input some string: ')
-s1 = s[:len(s) // 2]
-s2 = s[len(s) // 2:]
 
 if len(s) % 2 != 0:
-    s1 = s[:len(s) // 2]
-    s2 = s[len(s) // 2:]
-    print(s2, s1)
+    s1 = s[:len(s) // 2 + 1]
+    s2 = s[len(s) // 2 + 1:]
+
 else:
     s1 = s[:len(s) // 2]
     s2 = s[len(s) // 2:]
-    print(s2, s1)
+s3 = (s2 + s1)
+print(s3)
