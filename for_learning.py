@@ -1,10 +1,10 @@
-l = [1, 2, 3, 4, 5, 6]
+'''l = [1, 2, 3, 4, 5, 6]
 
 for x in l:
     if x % 2 == 0:
         print(x)
     else:
-        print(x + 1)
+        print(x + 1)'''
 
 
 
@@ -21,7 +21,7 @@ for z in l2:
 print(l2)
 
 
-print()
+'''print()
 print('Task 3')
 
     l3 = [3, 6, 13, 23, 28]
@@ -30,3 +30,4 @@ print('Task 3')
         if l3[i] % 2 != 0:
             l3[i] = l3[i] + 1
     print(l3)
+'''
