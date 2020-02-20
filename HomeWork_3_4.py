@@ -39,10 +39,10 @@ print()
 l2 = [2, 1, 1, 2, 2, 2, 11, 2, 3, 3, 3, 3]
 number = 1
 max1 = 1
-for i in range(len(l2) - 1):
-    if l2[i] == l2[i] + 1:
+for i in range(len(l2) - 2):
+    if l2[i] == l2[i + 1]:
         number += 1
-    if max1 > number:
+    if max1 < number:
         max1 = number
 print()
 print(max1)
