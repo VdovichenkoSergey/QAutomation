@@ -1,15 +1,15 @@
-'''print('Task 6.1')
+print('Task 6.1')
 print()
 
 def ReturnFloat():
 
-    функция попросит ввести число. Пока он не введёт правильно, просите
-    его ввести. Функция возвращает введённое число.
+    '''функция попросит ввести число. Пока он не введёт правильно, просите
+    его ввести. Функция возвращает введённое число.'''
 
     rep = input('Input digit: ')
     while True:
         try:
-            print(float(rep))
+            return float(rep)
             break
         except ValueError:
             rep = input('Input digit only: ')
@@ -25,9 +25,9 @@ print()
 
 def ReturnStr():
 
-    которая попросит пользователя ввести слово (строка без пробелов в
+    '''которая попросит пользователя ввести слово (строка без пробелов в
     середине, а вначале и в конце пробелы могут быть). Пока он не введёт правильно, просите
-    его ввести. Функция возвращает введённое слово.
+    его ввести. Функция возвращает введённое слово.'''
 
 
     s = input('Input Word: ')
@@ -35,14 +35,14 @@ def ReturnStr():
     while True:
         s1 = s[1:-1]
         if s1.count(' ') == 0:
-            print(s)
+            return s
             break
         else:
             s = input('input Word without spaces in the center: ')
 
 test = ReturnStr()
 print(test)
-print()'''
+print()
 
 print('Task 6.3')
 print()
@@ -56,12 +56,83 @@ def is_year_leap():
         try:
             year = int(year)
             if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
-                print('True')
+                return True
                 break
             else:
-                print('Else')
+                return False
                 break
         except ValueError:
             year = input("Input integer digit: ")
 year = is_year_leap()
 print(year)
+
+
+print('Task 6.4')
+print()
+
+def triangle(a, b, c):
+
+    '''Функция принимает три числа a, b, c. Функция должна определить,
+существует ли треугольник с такими сторонами.
+Если треугольник существует, вернёт True, иначе False.'''
+
+    if a + b <= c or c + b <= a or a + c <= b:
+        return False
+    else:
+        return True
+
+x = triangle(3, 4, 5)
+print(x)
+print()
+
+
+print('Task 6.5')
+print()
+
+def TriangleType(a, b, c):
+    '''Функция принимает три числа a, b, c. Функция должна определить, существует ли
+треугольник с такими сторонами и если существует, то возвращает тип треугольника
+Equilateral triangle (равносторонний), Isosceles triangle (равнобедренный), Versatile triangle
+(разносторонний) или не треугольник (Not a triangle).'''
+
+    while True:
+        try:
+            a = int(a)
+            b = int(b)
+            c = int(c)
+            if triangle(a, b, c) == False:
+                return 'Not a triangle'
+                break
+            if a == b == c:
+                return 'Equilateral triangle'
+                break
+            if a == b != c or a == c != b or c == b != a:
+                return 'Isosceles triangle'
+                break
+            if a != b != c:
+                return 'Versatile triangle'
+                break
+        except ValueError:
+            a = input('input only integer digit for first parameter: ')
+            b = input('input only integer digit for first parameter: ')
+            c = input('input only integer digit for first parameter: ')
+            continue
+
+x = TriangleType(6, 6, 6)
+print(x)
+print()
+
+
+print('Task 6.6')
+print()
+
+def distance(x1, y1, x2, y2):
+    '''Даны четыре действительных числа: x1, y1, x2, y2. Напишите функцию distance(x1, y1, x2,
+y2), вычисляющую расстояние между точками с координатами (x1, y1) и (x2, y2). Считайте
+четыре действительных числа от пользователя и выведите результат работы этой функции.'''
+
+    return 'distance between x1 and x2: ', x2 - x1
+    return 'distance between y1 and y2: ', y2 - y1
+
+x = distance(1, 2, 7, 9)
+print(x)
