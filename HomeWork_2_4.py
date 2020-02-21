@@ -1,12 +1,8 @@
-a1 = 3
-b1 = 4
-c1 = 5
+a = int(input('Введите сторону а: '))
+b = int(input('Введите сторону b: '))
+c = int(input('Введите сторону c: '))
 
-a2 = int(input('Введите сторону а: '))
-b2 = int(input('Введите сторону b: '))
-c2 = int(input('Введите сторону c: '))
-
-if a2 == a1 and b2 == b1 and c2 == c1:
-    print('Yes')
+if a + b <= c or c + b <= a or a + c <= b:
+    print('Not a triangle')
 else:
-    print('NO')
+    print('It is a triangle')
