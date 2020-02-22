@@ -9,3 +9,4 @@ from HomeWork_3_6 import ReturnFloat
 x = ReturnFloat()
 print(x)
 
+#print(__name__)
