@@ -33,12 +33,13 @@ def ReturnStr():
     s = input('Input Word: ')
 
     while True:
-        s1 = s[1:-1]
+        s1 = s.strip()
         if s1.count(' ') == 0:
             return s
             break
         else:
             s = input('input Word without spaces in the center: ')
+            continue
 
 test = ReturnStr()
 print(test)
