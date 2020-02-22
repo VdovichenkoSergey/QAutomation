@@ -1,4 +1,4 @@
-'''def func(*word):
+def func(*word):
     return word
 
 x = func(1, 2, 3, 4)
@@ -13,6 +13,6 @@ def func2(*value):
 
 x = func2(input('input some digits: '))
 #x = func2(5, 3, 4, 10)
-print(x)'''
+print(x)
 
 def func 3(**word)
