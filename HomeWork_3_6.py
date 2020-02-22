@@ -10,12 +10,11 @@ def ReturnFloat():
     while True:
         try:
             return float(rep)
-            break
         except ValueError:
             rep = input('Input digit only: ')
 
 
-x = repeat()
+x = ReturnFloat()
 print(x)
 print()
 
