@@ -1,5 +1,3 @@
-print('Task 6.1')
-print()
 
 def ReturnFloat():
 
@@ -13,14 +11,6 @@ def ReturnFloat():
         except ValueError:
             rep = input('Input digit only: ')
 
-
-x = ReturnFloat()
-print(x)
-print()
-
-
-print('Task 6.2')
-print()
 
 def ReturnStr():
 
@@ -40,12 +30,6 @@ def ReturnStr():
             s = input('input Word without spaces in the center: ')
             continue
 
-test = ReturnStr()
-print(test)
-print()
-
-print('Task 6.3')
-print()
 
 def is_year_leap():
     '''принимающую 1 аргумент — год, и возвращающую True,
@@ -63,12 +47,7 @@ def is_year_leap():
                 break
         except ValueError:
             year = input("Input integer digit: ")
-year = is_year_leap()
-print(year)
 
-
-print('Task 6.4')
-print()
 
 def triangle(a, b, c):
 
@@ -81,13 +60,7 @@ def triangle(a, b, c):
     else:
         return True
 
-x = triangle(3, 4, 5)
-print(x)
-print()
 
-
-print('Task 6.5')
-print()
 
 def TriangleType(a, b, c):
     '''Функция принимает три числа a, b, c. Функция должна определить, существует ли
@@ -118,13 +91,7 @@ Equilateral triangle (равносторонний), Isosceles triangle (рав�
             c = input('input only integer digit for first parameter: ')
             continue
 
-x = TriangleType(6, 6, 6)
-print(x)
-print()
 
-
-print('Task 6.6')
-print()
 
 def distance(x1, y1, x2, y2):
     '''Даны четыре действительных числа: x1, y1, x2, y2. Напишите функцию distance(x1, y1, x2,
@@ -133,6 +100,3 @@ y2), вычисляющую расстояние между точками с к
 
     return 'distance between x1 and x2: ', x2 - x1
     return 'distance between y1 and y2: ', y2 - y1
-
-x = distance(1, 2, 7, 9)
-print(x)
