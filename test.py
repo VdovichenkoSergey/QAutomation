@@ -1,6 +1,11 @@
-s = input('enter value: ')
+x = int(input('input digits: '))
 
-try:
-    s = int(s)
-except:
-    print('Error')
+l = [x]
+
+print(l)
+
+'''l1 = l[1:].sort()
+
+for i in l1:
+    if i > i + 1:
+        print(i)'''
