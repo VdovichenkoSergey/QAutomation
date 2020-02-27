@@ -1,8 +1,27 @@
-def second_value_method2(*x):
+def front_x(*words):
 
-    l = list(set(x))
-    l.sort() # не уверен, но вроде и так уже отсортировано
-    return l
+    '''Если дан список строк, вернуть список со строками
+    в отсортированном порядке, за исключением группировки всех строк, начинающихся с «x».'''
 
-a = second_value_method2(8, 2, 8, 2, 4, 1, 0, 3)
-print(a)
+    l = list(words)
+    l1 = []
+    a = 0
+    for i in l:
+        if i[0] == 'x':
+            l1.append(i)
+            l.remove(i)
+
+
+    print(l)
+    print(l1)
+    # return l
+
+
+# print('\n', 'front_x')
+y = front_x('bbb', 'ccc', 'axx', 'xzz', 'xaa')
+print(y)
+#      ['xaa', 'xzz', 'axx', 'bbb', 'ccc'])
+# test(front_x(['ccc', 'bbb', 'aaa', 'xcc', 'xaa']),
+#      ['xaa', 'xcc', 'aaa', 'bbb', 'ccc'])
+# test(front_x(['mix', 'xyz', 'apple', 'xanadu', 'aardvark']),
+#      ['xanadu', 'xyz', 'aardvark', 'apple', 'mix'])
