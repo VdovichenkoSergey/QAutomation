@@ -4,14 +4,12 @@ def sort_last(*tuples):
     order by the last element in each tuple'''
 
     l = list(tuples)
-    d = {}
-    for i in l:
+    l1 = sorted(l, key=lambda x: x[1])
 
-
-    # l1 = sorted(l.)
-    print(d)
+    return l1
 
 z = sort_last((1, 3), (3, 2), (2, 1))
+print(z)
 #      [(2, 1), (3, 2), (1, 3)])
 # test(sort_last([(2, 3), (1, 2), (3, 1)]),
 #      [(3, 1), (1, 2), (2, 3)])
