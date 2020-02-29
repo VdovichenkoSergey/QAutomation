@@ -31,15 +31,15 @@ def ReturnStr():
             continue
 
 
-def is_year_leap():
+def is_year_leap(year):
     '''принимающую 1 аргумент — год, и возвращающую True,
     если год високосный, и False иначе.'''
-    year = input("Input year which will be checked: ")
+#    year = input("Input year which will be checked: ")
 
     while True:
         try:
             year = int(year)
-            if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+            if year % 4 == 0 and year % 100 != 0 or year % 400 == 0 or year != 0:
                 return True
                 break
             else:
