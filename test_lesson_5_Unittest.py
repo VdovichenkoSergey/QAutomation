@@ -13,4 +13,6 @@ class TestLeapYear(unittest.TestCase):
         res = is_year_leap(year)
         self.assertFalse(res)
 
-unittest.main()
+
+if __name__ == "__main__":
+    unittest.main()
