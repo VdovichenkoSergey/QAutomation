@@ -39,12 +39,10 @@ def is_year_leap(year):
     while True:
         try:
             year = int(year)
-            if year % 4 == 0 and year % 100 != 0 or year % 400 == 0 or year != 0:
+            if year % 4 == 0 and year % 100 != 0 or year % 400 == 0 and year != 0:
                 return True
-                break
             else:
                 return False
-                break
         except ValueError:
             year = input("Input integer digit: ")
 
