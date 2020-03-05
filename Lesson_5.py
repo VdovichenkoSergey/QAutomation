@@ -18,6 +18,7 @@ p1 = Person('Sergey', 25, 'QA')
 print(p1.name, p1.age, p1.position)
 p1.set_name('Vasia')
 print(p1.name)
+p1.name
 
 p2 = Person('Nik', 28, 'QC')
 print(p2.name, p2.position, p2.age)
