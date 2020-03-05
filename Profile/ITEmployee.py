@@ -3,8 +3,8 @@ from Profile.Employee import Employee
 
 class ITemployee(Employee):
 
-    def __init__(self, *skills, experience, salary, full_name, position, year_of_birth):
-        Employee.__init__(self, experience, salary, full_name, position, year_of_birth)
+    def __init__(self, position, experience, salary, full_name, year_of_birth, *skills):
+        Employee.__init__(self, position, experience, salary, full_name, year_of_birth)
         self.skills = list(skills)
 
     def add_skill(self, skill_new):
@@ -15,29 +15,26 @@ class ITemployee(Employee):
         return self.skills.extend(list(skills_new))
 
     def __str__(self):
-        message = f'Atributes of your object: \n'\
+        message = f'Atributes of your object: \n \n'\
                   f'Full name: {self.full_name} \n'\
                   f'Year of birth: {self.year_of_bitrh} \n'\
                   f'Position: {self.position} \n'\
                   f'Skills: {self.skills} \n'\
                   f'Experience: {self.experience} \n'\
-                  f'Salary: {self.salary} \n'\
-
+                  f'Salary: {self.salary} \n'
         return message
 
 
 
-c = ITemployee('Java', 'Python', experience=4, salary=1500, full_name='Serhio Brugeiro', position='qa', year_of_birth=1985)
+c = ITemployee('qa', 4, 1500, 'Serhio Brugeiro', 1985, 'Java', 'Python')
 
 print(c)
-# print(c.__str__())
-#
-# print(c.skills)
-#
-# c.add_skill('Selenium')
-# print(c.skills)
-#
-# c.add_skills('delpi', 'C++')
-# print(c.skills)
+print(c.skills)
 
+c.add_skill('Selenium')
+print(c.skills)
+
+c.add_skills('delpi', 'C++')
+print(c.skills)
+print(c)
 

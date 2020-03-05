@@ -16,8 +16,17 @@ class Person:
         years_old = year_in - self.year_of_bitrh
         return years_old
 
+    def __str__(self):
+        message = f'Atributes of your object: \n \n'\
+                  f'Full name: {self.full_name} \n'\
+                  f'Year of birth: {self.year_of_bitrh} \n'
+        return message
 
-#a = Person('Sergey Vdovichenko', 1981)
+
+a = Person('Sergey Vdovichenko', 1981)
+
+print()
+print(a)
 # print(a.first_name())
 # print(a.surname())
 # print(a.year_of_bitrh)
