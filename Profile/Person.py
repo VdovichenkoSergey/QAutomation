@@ -23,14 +23,14 @@ class Person:
         return message
 
 
-a = Person('Sergey Vdovichenko', 1981)
+a = Person('Sergey Vdovichenko', 1955)
 
-print()
-print(a)
+# print()
+# print(a)
 # print(a.first_name())
 # print(a.surname())
 # print(a.year_of_bitrh)
-# print(a.age_in(2024))
+# print(a.age_in(2020))
 
 
 
