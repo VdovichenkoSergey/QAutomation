@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13332029-fadd-43fd-8141-7991302eb85a" name="Default Changelist" comment="" />
+    <list default="true" id="13332029-fadd-43fd-8141-7991302eb85a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/QAutomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QAutomation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +21,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Xk26ePuBktql4zZY5REJhPkfOa" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -28,99 +31,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/home_work_5" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="QAutomation" sdk-home="C:\Users\S\AppData\Local\Programs\Python\Python38-32\python.exe">
+        <option name="mySdkHome" value="C:\Users\S\AppData\Local\Programs\Python\Python38-32\python.exe" />
+        <option name="myModuleName" value="QAutomation" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\git\QAutomation\home_work_5" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.student">
-    <configuration name="HomeWork_Temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="QAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HomeWork_Temp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Person" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="QAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Profile" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Profile/Person.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="distance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="QAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/home_work_5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/home_work_5/distance.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="rectangle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="QAutomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/home_work_5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/home_work_5/rectangle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in test_triangle.py">
     <configuration name="student" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="QAutomation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,6 +61,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/home_work_5/student.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_triangle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="QAutomation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_home_work_3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_home_work_3/test_triangle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,21 +105,64 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in test_is_leap_year.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="QAutomation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_home_work_3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_home_work_3/test_is_leap_year.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="QAutomation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_home_work_3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_home_work_3/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_triangle.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="QAutomation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\S\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_home_work_3" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_home_work_3/test_triangle.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Person" />
-      <item itemvalue="Python.rectangle" />
-      <item itemvalue="Python.distance" />
       <item itemvalue="Python.student" />
       <item itemvalue="Python tests.Unittests in bin" />
-      <item itemvalue="Python.HomeWork_Temp" />
+      <item itemvalue="Python tests.Unittests in test_is_leap_year.py" />
+      <item itemvalue="Python tests.Unittests in test_triangle.py" />
+      <item itemvalue="Python.test_triangle" />
+      <item itemvalue="Python tests.Unittests in test.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_triangle.py" />
+        <item itemvalue="Python tests.Unittests in test.py" />
+        <item itemvalue="Python tests.Unittests in test_is_leap_year.py" />
+        <item itemvalue="Python.test_triangle" />
         <item itemvalue="Python.student" />
-        <item itemvalue="Python.HomeWork_Temp" />
-        <item itemvalue="Python.distance" />
-        <item itemvalue="Python.rectangle" />
-        <item itemvalue="Python.Person" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +180,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="402" y="0" key="#Unittests_in_QAutomation" timestamp="1583761619857">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="402" y="0" key="#Unittests_in_QAutomation/0.0.1366.738@0.0.1366.738" timestamp="1583761619857" />
+    <state x="402" y="0" key="#Unittests_in_test_triangle.py" timestamp="1583767508083">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="402" y="0" key="#Unittests_in_test_triangle.py/0.0.1366.738@0.0.1366.738" timestamp="1583767508083" />
     <state x="523" y="155" width="1092" height="731" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583222818099">
       <screen x="0" y="0" width="1920" height="1018" />
     </state>
@@ -201,10 +200,15 @@
       <screen x="0" y="0" width="1920" height="1018" />
     </state>
     <state x="754" y="71" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1018/3840.0.1920.1018/1920.0.1920.1018@0.0.1920.1018" timestamp="1583310309243" />
+    <state x="402" y="0" key="#test_triangle" timestamp="1583764565030">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="402" y="0" key="#test_triangle/0.0.1366.738@0.0.1366.738" timestamp="1583764565030" />
     <state x="848" y="242" key="FileChooserDialogImpl" timestamp="1583473773400">
       <screen x="0" y="0" width="1920" height="1018" />
     </state>
     <state x="848" y="242" key="FileChooserDialogImpl/0.0.1920.1018/3840.0.1920.1018/1920.0.1920.1018@0.0.1920.1018" timestamp="1583473773400" />
+<<<<<<< HEAD
     <state width="1362" height="309" key="GridCell.Tab.0.bottom" timestamp="1583505688805">
       <screen x="0" y="0" width="1920" height="1018" />
     </state>
@@ -223,7 +227,52 @@
     <state width="1362" height="309" key="GridCell.Tab.0.right/0.0.1920.1018/3840.0.1920.1018/1920.0.1920.1018@0.0.1920.1018" timestamp="1583505688805" />
     <state x="570" y="132" key="SettingsEditor" timestamp="1583222784068">
       <screen x="0" y="0" width="1920" height="1018" />
+=======
+    <state width="1344" height="168" key="GridCell.Tab.0.bottom" timestamp="1583767789851">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state width="1344" height="168" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583767789851" />
+    <state width="1362" height="309" key="GridCell.Tab.0.bottom/0.0.1920.1018/3840.0.1920.1018/1920.0.1920.1018@0.0.1920.1018" timestamp="1583504897466" />
+    <state width="1344" height="168" key="GridCell.Tab.0.center" timestamp="1583767789851">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1344" height="168" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583767789851" />
+    <state width="1362" height="309" key="GridCell.Tab.0.center/0.0.1920.1018/3840.0.1920.1018/1920.0.1920.1018@0.0.1920.1018" timestamp="1583504897465" />
+    <state width="1344" height="168" key="GridCell.Tab.0.left" timestamp="1583767789851">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1344" height="168" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583767789851" />
+    <state width="1362" height="309" key="GridCell.Tab.0.left/0.0.1920.1018/3840.0.1920.1018/1920.0.1920.1018@0.0.1920.1018" timestamp="1583504897465" />
+    <state width="1344" height="168" key="GridCell.Tab.0.right" timestamp="1583767789851">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1344" height="168" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583767789851" />
+    <state width="1362" height="309" key="GridCell.Tab.0.right/0.0.1920.1018/3840.0.1920.1018/1920.0.1920.1018@0.0.1920.1018" timestamp="1583504897466" />
+    <state width="1344" height="221" key="GridCell.Tab.1.bottom" timestamp="1583762557775">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1344" height="221" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583762557775" />
+    <state width="1344" height="221" key="GridCell.Tab.1.center" timestamp="1583762557775">
+      <screen x="0" y="0" width="1366" height="738" />
+>>>>>>> 2929ca6c2d87e0c7016ec11ca3c5a52a8bec01eb
+    </state>
+    <state width="1344" height="221" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1583762557775" />
+    <state width="1344" height="221" key="GridCell.Tab.1.left" timestamp="1583762557774">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1344" height="221" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1583762557774" />
+    <state width="1344" height="221" key="GridCell.Tab.1.right" timestamp="1583762557775">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1344" height="221" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1583762557775" />
+    <state x="368" y="0" key="SettingsEditor" timestamp="1583764723821">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="368" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1583764723821" />
     <state x="570" y="132" key="SettingsEditor/0.0.1920.1018/3840.0.1920.1018/1920.0.1920.1018@0.0.1920.1018" timestamp="1583222784068" />
+    <state x="384" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1583764490337">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="384" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1583764490337" />
   </component>
 </project>
