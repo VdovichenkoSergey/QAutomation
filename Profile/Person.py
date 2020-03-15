@@ -1,3 +1,5 @@
+import datetime
+
 class Person:
     def __init__(self, full_name, year_of_birth):
         self.full_name = str(full_name)
@@ -12,7 +14,10 @@ class Person:
         surname = self.name_parsing[1]
         return surname
 
-    def age_in(self, year_in=2020):
+    def age_in(self, year_in=None):
+        if year_in is None:
+            year_in = datetime.datetime.now().year # оператор нужен для того
+                                            # чтбы каждый объект имел свое значение по умолчанию
         years_old = year_in - self.year_of_bitrh
         return years_old
 
