@@ -8,11 +8,11 @@ class ITemployee(Employee):
         self.skills = list(skills)
 
     def add_skill(self, skill_new):
-        return self.skills.append(skill_new)
+        self.skills.append(skill_new)
 
     def add_skills(self, *skills_new):
         # self.skills_new = list(skills_new)
-        return self.skills.extend(list(skills_new))
+        self.skills.extend(list(skills_new))
 
     def __str__(self):
         message = f'Atributes of your object: \n \n'\
@@ -27,14 +27,14 @@ class ITemployee(Employee):
 
 
 c = ITemployee('qa', 4, 1500, 'Serhio Brugeiro', 1985, 'Java', 'Python')
-
-print(c)
-print(c.skills)
-
-c.add_skill('Selenium')
-print(c.skills)
-
-c.add_skills('delpi', 'C++')
-print(c.skills)
-print(c)
+#
+# print(c)
+# print(c.skills)
+#
+# c.add_skill('Selenium')
+# print(c.skills)
+#
+# c.add_skills('delpi', 'C++')
+# print(c.skills)
+# print(c)
 

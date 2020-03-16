@@ -31,11 +31,11 @@ class Employee(Person):
         return message
 
 
-b = Employee(position='QA', experience=6.5, salary=2100, full_name='Sergey Vdovichenko', year_of_birth=1981)
-
-print()
-print(b)
-print(b.pre_position())
-print(b.rise_salary(200.20))
+# b = Employee(position='QA', experience=6.5, salary=2100, full_name='Sergey Vdovichenko', year_of_birth=1981)
+#
+# print()
+# print(b)
+# print(b.pre_position())
+# print(b.rise_salary(200.20))
 
 

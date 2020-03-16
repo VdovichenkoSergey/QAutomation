@@ -1,15 +1,15 @@
 
-def ReturnFloat():
+def ReturnFloat(a):
 
     '''функция попросит ввести число. Пока он не введёт правильно, просите
     его ввести. Функция возвращает введённое число.'''
 
-    rep = input('Input digit: ')
+    # rep = input('Input digit: ')
     while True:
         try:
-            return float(rep)
+            return float(a)
         except ValueError:
-            rep = input('Input digit only: ')
+            a = input('Input digit only: ')
 
 
 def ReturnStr():
@@ -70,15 +70,16 @@ Equilateral triangle (равносторонний), Isosceles triangle (рав�
             a = int(a)
             b = int(b)
             c = int(c)
+
             if triangle(a, b, c) == False:
                 return 'Not a triangle'
-                break
+
             if a == b == c:
                 return 'Equilateral triangle'
-                break
+
             if a == b != c or a == c != b or c == b != a:
                 return 'Isosceles triangle'
-                break
+
             if a != b != c:
                 return 'Versatile triangle'
                 break

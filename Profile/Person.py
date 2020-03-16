@@ -23,7 +23,7 @@ class Person:
         return message
 
 
-a = Person('Sergey Vdovichenko', 1955)
+# a = Person('Sergey Vdovichenko', 1955)
 
 # print()
 # print(a)

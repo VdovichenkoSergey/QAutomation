@@ -1,4 +1,5 @@
 import unittest
+
 from HomeWork_3_6 import is_year_leap
 from HomeWork_3_6 import triangle
 
@@ -27,6 +28,7 @@ class TestLeapYear(unittest.TestCase):
 
 
 # class TestTriangle(unittest.TestCase):
+
     def triangle_true1(self):
         a = 1
         b = 2
