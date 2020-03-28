@@ -18,5 +18,5 @@ def la_la(a=3, b=3, c=0):
         s += (i + '\n')
     return s
 
-x = la_la(5, 7, 1)
-print(x)
+# x = la_la(5, 7, 1)
+# print(x)
