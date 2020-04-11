@@ -36,15 +36,11 @@ def is_year_leap(year):
     если год високосный, и False иначе.'''
 #    year = input("Input year which will be checked: ")
 
-    while True:
-        try:
-            year = int(year)
-            if year % 4 == 0 and year % 100 != 0 or year % 400 == 0 and year != 0:
-                return True
-            else:
-                return False
-        except ValueError:
-            year = input("Input integer digit: ")
+    year = int(year)
+    if year % 4 == 0 and year % 100 != 0 or year % 400 == 0 and year != 0:
+        return True
+    else:
+        return False
 
 
 def triangle(a, b, c):
@@ -98,3 +94,7 @@ y2), вычисляющую расстояние между точками с к
 
     return 'distance between x1 and x2: ', x2 - x1
     return 'distance between y1 and y2: ', y2 - y1
+
+
+if __name__ == "__main__":
+    print(is_year_leap(2001))
