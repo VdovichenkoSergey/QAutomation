@@ -159,4 +159,4 @@ class TestFilters(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    unittest.main()  # verbosity=2, testRunner=HTMLTestRunner(output="./")
+    unittest.main(verbosity=2, testRunner=HTMLTestRunner(output="./"))
