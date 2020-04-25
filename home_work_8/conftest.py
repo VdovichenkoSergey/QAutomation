@@ -5,7 +5,7 @@ import json
 '''auth start'''
 
 
-@pytest.fixture()
+@pytest.fixture(scope='session')
 def token():
     r_token = requests.post('http://pulse-rest-testing.herokuapp.com/api-token-auth/',
                             data={'username': 'vdovichenko', 'password': 'vdovichenko'})
