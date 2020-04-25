@@ -45,9 +45,7 @@ def test_role_delete(post_role, base_role_url, role_data, auth_session):
 
 def test_linked_book_from_deleted_role(post_role, base_role_url, base_book_url, book_data, auth_session):
     book = post_role.json()['book']
-    book = book[-4:]
-    book_json = auth_session.get(base_book_url + book).json()
+    book_json = auth_session.get(base_book_url + str(book)).json()
     auth_session.delete(base_role_url + str(post_role.json()['id']))
     books_json = auth_session.get(base_book_url).json()
-
     assert book_json in books_json
