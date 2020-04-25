@@ -35,9 +35,9 @@ def wrong_auth_list(request):
 
 
 @pytest.fixture()
-def auth_session():
+def auth_session(auth):
     s = requests.Session()
-    s.auth = ('vdovichenko', 'vdovichenko')
+    s.auth = auth
     return s
 
 
