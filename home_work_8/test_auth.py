@@ -76,8 +76,6 @@ def test_book_read_wrong_auth(post_book_with_auth, base_book_url, wrong_auth_lis
     assert read.json() == {'detail': 'Invalid username/password.'}
 
 
-#
-#
 def test_book_edit_wrong_auth(post_book_with_auth, base_book_url, wrong_auth_list, book_data_edit):
     edit = requests.put(base_book_url + str(post_book_with_auth.json()['id']), data=book_data_edit,
                         auth=wrong_auth_list)
