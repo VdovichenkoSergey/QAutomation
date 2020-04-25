@@ -13,6 +13,8 @@ def test_role_create_negative(base_role_url, role_list_negative, auth_session):
     create = auth_session.post(base_role_url, data=role_list_negative)
     assert create.status_code == 400
     role_list = auth_session.get(base_role_url).json()
+    for role in role_list:
+        role.pop('id')
     assert role_list_negative not in role_list
 
 
