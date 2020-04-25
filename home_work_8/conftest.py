@@ -86,7 +86,6 @@ def book_data_edit():
 
 with open('../home_work_8/books_list.txt', 'r') as output:
     book_list1 = json.loads(str(output.read()))
-output.close()
 
 
 @pytest.fixture(params=book_list1, ids=[str(i) for i in book_list1])  # parametrization
@@ -125,7 +124,6 @@ def role_data_edit(base_role_url, post_book_with_auth, auth):
 
 with open('../home_work_8/roles_list.txt', 'r') as output:
     roles_list = json.loads(str(output.read()))
-output.close()
 
 
 @pytest.fixture(params=roles_list, ids=[str(i) for i in roles_list])  # parametrization
@@ -138,7 +136,6 @@ def role_list(request, base_role_url, auth):
 
 with open('../home_work_8/roles_list_negative.txt', 'r') as output:
     roles_list_negative = json.loads(str(output.read()))
-output.close()
 
 
 @pytest.fixture(params=roles_list_negative, ids=[str(i) for i in roles_list_negative])  # parametrization
