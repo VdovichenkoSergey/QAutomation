@@ -176,7 +176,7 @@ def post_book_with_auth(base_book_url, book_data, token):
     p_book1 = requests.post(base_book_url, data=book_data, headers={'Authorization': f'Token {token}'})
     p_book_json1 = p_book1.json()
     yield p_book1
-    if 'id' in p_book1:
+    if 'id' in p_book_json1:
         requests.delete(base_book_url + str(p_book_json1['id']), headers={'Authorization': f'Token {token}'})
 
 
@@ -185,7 +185,7 @@ def post_role(base_role_url, role_data, auth):
     p_role = requests.post(base_role_url, data=role_data, auth=auth)
     p_role_json = p_role.json()
     yield p_role
-    if 'id' in p_role:
+    if 'id' in p_role_json:
         requests.delete(base_role_url + str(p_role_json['id']), auth=auth)
 
 
@@ -194,7 +194,7 @@ def post_book_with_aut_2(base_book_url, book_data, auth):
     p_book1 = requests.post(base_book_url, data=book_data, auth=auth)
     p_book_json1 = p_book1.json()
     yield p_book1
-    if 'id' in p_book1:
+    if 'id' in p_book_json1:
         requests.delete(base_book_url + str(p_book_json1['id']), auth=auth)
 
 
