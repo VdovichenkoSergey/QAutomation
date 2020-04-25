@@ -161,6 +161,9 @@ def roles_for_filter(post_book_with_aut_2, base_book_url, base_role_url, auth_se
         {"name": "Vdovichenko 2", "type": "Dude", "level": 80,
          "book": post_book_with_aut_2.json()['id']}
     ]
+    for role in list_filter:
+        r = auth_session.post(base_role_url, data=role)
+        role['id'] = r.json()['id']
     yield list_filter
     for role in list_filter:
         if 'id' in role:
